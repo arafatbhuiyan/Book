@@ -1,16 +1,25 @@
 import React from 'react';
 import { createBrowserRouter } from "react-router";
 import App from '../App';
+import Root from '../pages/Root/Root';
+import Error from '../pages/Error/Error';
+import Home from '../pages/Home/Home';
 
 
 
 export const router = createBrowserRouter([
   {
     path: "/",
-    Component:App,
+    Component:Root,
+    errorElement: <Error></Error>,
+    children:[
+      {
+        index:true,
+        path:"/",
+        Component: Home
+      }
+
+    ]
   },
-  {
-    path: "*",
-    element: <h1>404 is not found</h1>,
-  },
+  
 ]);
