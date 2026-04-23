@@ -6,7 +6,8 @@ const Banner = () => {
         alert("No Added")
     }
   return (
-    <div className="bg-[#f1faee] py-2 md:py-20 lg:py-15">
+    
+    <div className="bg-[#f1faee] py-2 md:py-20 lg:py-15 mx-4 md:mx-8 lg:mx-16">
       <div className="flex flex-col lg:flex-row items-center justify-around max-w-6xl mx-auto px-4 lg:px-8">
 
         {/* Text Section */}

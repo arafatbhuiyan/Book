@@ -1,32 +1,42 @@
 import React from 'react';
+import { IoIosStarHalf } from 'react-icons/io';
 
-const Book = ({singlebook}) => {
+const Book = ({ singlebook }) => {
 
-    console.log(singlebook);
+  const { author, bookName, category, image, publisher, rating, review,reviews,totalPages} = singlebook;
 
-    const {author , bookName, category, image, publisher, rating, review } = singlebook
-    
- 
-    return (
-        <div className="card bg-base-100 w-96 shadow-sm">
-  <figure className=' p-2'>
-    <img
-      src={image}
-      alt="Shoes" />
-  </figure>
-  <div className="card-body">
-    <h2 className="card-title">
-      Card Title
-      <div className="badge badge-secondary">NEW</div>
-    </h2>
-    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-    <div className="card-actions justify-end">
-      <div className="badge badge-outline">Fashion</div>
-      <div className="badge badge-outline">Products</div>
+  return (
+    <div className="card w-full bg-base-100 shadow-sm ">
+      
+      <figure className="p-4 bg-[#f8f9fa]">
+        <img
+          className="h-52 w-full object-contain"
+          src={image}
+          alt={bookName}
+        />
+      </figure>
+
+      <div className="card-body">
+        <h2 className="card-title">
+          <div className=' text-sm'>
+            {bookName}
+          </div>
+          
+          <div className=" text-sm text-white bg-pink-600 py-1 px-3 rounded-2xl">{totalPages}</div>
+        </h2>
+
+        <p className="text-sm text-gray-500">
+          by {publisher}
+        </p>
+
+        <div className="card-actions justify-end">
+          <div className="badge badge-outline">{category}</div>
+          <div className="">{rating}</div> <IoIosStarHalf size={20}/>
+        </div>
+      </div>
+
     </div>
-  </div>
-</div>
-    );
+  );
 };
 
 export default Book;

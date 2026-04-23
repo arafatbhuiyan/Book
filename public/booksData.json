@@ -1,6 +1,7 @@
 [
   {
     "bookId": 1,
+    "reviews": "The Great Gatsby' by F. Scott Fitzgerald is a timeless masterpiece that delves into the decadence",
     "bookName": "The Great Gatsby",
     "author": "F. Scott Fitzgerald",
     "image": "https://i.ibb.co.com/khHN7Pk/9780143454212.jpg",
@@ -14,6 +15,7 @@
   },
   {
     "bookId": 2,
+    "reviews": "The Great Gatsby' by F. Scott Fitzgerald is a timeless masterpiece that delves into the decadence",
     "bookName": "To Kill a Mockingbird",
     "author": "Harper Lee",
     "image": "https://i.ibb.co.com/0cv102J/To-Kill-a-Mockingbird.webp",
@@ -27,6 +29,7 @@
   },
   {
     "bookId": 3,
+    "reviews": "The Great Gatsby' by F. Scott Fitzgerald is a timeless masterpiece that delves into the decadence",
     "bookName": "1984",
     "author": "George Orwell",
     "image": "https://i.ibb.co.com/MprDyVt/51-BIA4rrae-L-AC-UF1000-1000-QL80.jpg",
@@ -40,6 +43,7 @@
   },
   {
     "bookId": 4,
+    "reviews": "The Great Gatsby' by F. Scott Fitzgerald is a timeless masterpiece that delves into the decadence",
     "bookName": "The Catcher in the Rye",
     "author": "J.D. Salinger",
     "image": "https://i.ibb.co.com/tYSWRfG/catcherrye-edited-1-800x.png",
@@ -53,6 +57,7 @@
   },
   {
     "bookId": 5,
+    "reviews": "The Great Gatsby' by F. Scott Fitzgerald is a timeless masterpiece that delves into the decadence",
     "bookName": "Pride and Prejudice",
     "author": "Jane Austen",
     "image": "https://i.ibb.co.com/YdQDMpn/81me-ud-V63-L-AC-UF1000-1000-QL80.jpg",
@@ -66,6 +71,7 @@
   },
   {
     "bookId": 6,
+    "reviews": "The Great Gatsby' by F. Scott Fitzgerald is a timeless masterpiece that delves into the decadence",
     "bookName": "The Hobbit",
     "author": "J.R.R. Tolkien",
     "image": "https://i.ibb.co.com/xS8YvxL/81m-CE-uclx-L-UF1000-1000-QL80.jpg",
@@ -79,6 +85,7 @@
   },
   {
     "bookId": 7,
+    "reviews": "The Great Gatsby' by F. Scott Fitzgerald is a timeless masterpiece that delves into the decadence",
     "bookName": "Harry Potter and the Sorcerer's Stone",
     "author": "J.K. Rowling",
     "image": "https://i.ibb.co.com/989qMRW/42844155.jpg",
@@ -92,6 +99,7 @@
   },
   {
     "bookId": 8,
+    "reviews": "The Great Gatsby' by F. Scott Fitzgerald is a timeless masterpiece that delves into the decadence",
     "bookName": "The Alchemist",
     "author": "Paulo Coelho",
     "image": "https://i.ibb.co.com/zS9jsdK/18144590.jpg",
@@ -105,6 +113,7 @@
   },
   {
     "bookId": 9,
+    "reviews": "The Great Gatsby' by F. Scott Fitzgerald is a timeless masterpiece that delves into the decadence",
     "bookName": "The Girl on the Train",
     "author": "Paula Hawkins",
     "image": "https://i.ibb.co.com/P6hfCmJ/Whats-App-Image-2024-05-22-at-11-21-25-2e21ae46.jpg",
